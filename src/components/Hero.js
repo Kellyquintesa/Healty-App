@@ -6,9 +6,10 @@ function Hero() {
       <div
         className="     
       container 
-      py-52 
-      grid 
-      grid-cols-2 
+      p-10
+      lg:py-52 
+      md:grid 
+      md:grid-cols-2 
       place-items-center "
       >
         <div>
@@ -22,7 +23,8 @@ function Hero() {
           </p>
           <span
             className="
-        text-6xl
+        text-4xl
+        lg:text-6xl
       text-[#4d416c]
         font-bold"
           >
@@ -33,12 +35,14 @@ function Hero() {
             className="
         mt-7
         py-2 
-        px-10 
+        px-5
+        lg:px-10 
         bg-[#4d416c]
         hover:bg-[#815ae5]
         rounded-full
         text-white
         font-normal
+        
         "
           >
             Explore Exercise

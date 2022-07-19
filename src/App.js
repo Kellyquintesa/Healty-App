@@ -2,7 +2,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import SearchExercise from "./components/SearchExercise";
+// import SearchExercise from "./components/SearchExercise";
+import ExercisesList from "./components/ExercisesList";
+import FetchData from "./utils/FetchData";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <Route path="/" />
       </Switch>
       <Hero />
-      <SearchExercise />
+      {/* <SearchExercise /> */}
+      <ExercisesList />
+      <FetchData />
     </Router>
   );
 }
